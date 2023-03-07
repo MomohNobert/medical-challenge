@@ -1,6 +1,6 @@
 import { Add, Logo } from 'components/Icons';
-import { Style } from './styles';
 import { Route } from './Route/route';
+import { Style } from './styles';
 
 const routes = [
   {
@@ -52,7 +52,7 @@ export function Sidebar() {
         ))}
       </section>
       <section className="sidebar-actions">
-        <img src="layout/logout.png" />
+        <img src="layout/logout.png" alt="log out" />
         <p>Logout</p>
       </section>
     </Style.Container>

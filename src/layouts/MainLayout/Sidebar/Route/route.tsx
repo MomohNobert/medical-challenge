@@ -1,4 +1,3 @@
-import { DetailedHTMLProps, ImgHTMLAttributes } from 'react';
 import { Style } from './styles';
 
 interface Props {

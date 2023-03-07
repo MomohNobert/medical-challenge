@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Style } from './styles';
 import { TreatmentInfo } from 'molecules';
+import { Style } from './styles';
 
 const treatment_info = [
   {
@@ -64,7 +64,7 @@ export function Appointments() {
         </article>
         <article className="ti-content">
           {treatment_info.map((info) => (
-            <TreatmentInfo info={info} />
+            <TreatmentInfo info={info} key={info.treatment} />
           ))}
         </article>
       </section>

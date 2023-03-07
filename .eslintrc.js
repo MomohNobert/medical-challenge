@@ -7,7 +7,7 @@ module.exports = {
   ],
   rules: {
     'import/order': [
-      'error',
+      'warn',
       {
         alphabetize: {
           caseInsensitive: true,
@@ -32,5 +32,7 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    '@next/next/no-img-element': 'off',
+    'react/display-name': 'off',
   },
 };

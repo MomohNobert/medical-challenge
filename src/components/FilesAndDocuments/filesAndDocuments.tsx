@@ -15,7 +15,7 @@ export function FilesAndDocuments() {
       <article className="fd-section">
         <h2>Files / Documents</h2>
         {documents_details.map((detail) => (
-          <article>
+          <article key={detail}>
             <Note />
             <p>{detail}</p>
           </article>

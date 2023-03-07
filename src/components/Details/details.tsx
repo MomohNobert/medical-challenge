@@ -39,7 +39,7 @@ export function Details() {
   return (
     <Style.Container>
       {details_data.map((detail) => (
-        <article>
+        <article key={detail.content}>
           <p>{detail.name}</p>
           <span>{detail.content}</span>
         </article>
